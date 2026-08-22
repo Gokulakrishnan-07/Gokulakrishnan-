@@ -24,8 +24,8 @@ npm run preview
 
 - Personal details, links, skills, projects, and quotes: `src/data.js`.
 - SDECMS cover and gallery: `public/projects/`. The supplied `Home.png` is the cover; the other three supplied screenshots are shown in the detail gallery.
-- Profile photo: add your own `public/profile.jpg` and wire it into the hero when ready. No face or invented image is included.
-- Resume: add the supplied PDF as `public/GK_Resume_Professional.pdf`. The buttons already point to that path; the PDF was not present in this checkout.
+- Profile photo: the current supplied image is `public/GOKUL.png`; replace that file and keep the same path, or update `photo` in `src/data.js`.
+- Resume: the current supplied PDF is `public/Gokulakrishnan-K-Resume.pdf`; the View Resume and Download buttons use this path.
 - SDECMS GitHub URL: update the `github` field in `src/data.js` when the real repository is available. It is intentionally not invented.
 - Instagram: replace the `instagram: '#'` placeholder in `src/data.js`.
 
@@ -37,7 +37,7 @@ Without those values, the form displays a configuration message and provides the
 
 ## Deployment
 
-Run `npm run build` and deploy the generated `dist` directory to Vercel, Netlify, or GitHub Pages. This is a single-page Vite site with hash-free section navigation, so no client-side route fallback is required. For GitHub Pages, configure the repository as a Vite static site and set the correct Vite `base` if deploying below the domain root.
+Run `npm run build` and deploy the generated `dist` directory to Vercel, Netlify, or GitHub Pages. Netlify is configured in `netlify.toml` to run `npm run build` and publish `dist`. This is a single-page Vite site with hash-free section navigation, so no client-side route fallback is required. For GitHub Pages, configure the repository as a Vite static site and set the correct Vite `base` if deploying below the domain root.
 
 ## Design notes
 
