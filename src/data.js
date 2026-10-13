@@ -1,4 +1,23 @@
-export const profile = { name: 'Gokulakrishnan K', monogram: 'GK', role: 'Aspiring Full Stack Developer', identity: 'B.Sc. Computer Science Student', year: 'Final-year', email: 'gokulakrishnankathiravan@gmail.com', phone: '8098400176', github: 'https://github.com/Gokulakrishnan-07', linkedin: 'https://linkedin.com/in/gokulakrishnan8207', instagram: '#', photo: '/GOKUL.png', resume: '/Gokulakrishnan-K-Resume.pdf', college: 'Swami Dayananda College of Arts & Science', education: 'B.Sc. Computer Science · 2024–2027', percentage: '82%' };
+export const profile = {
+  name: 'Gokulakrishnan K',
+  monogram: 'GK',
+  role: 'Aspiring Full Stack Developer',
+  identity: 'B.Sc. Computer Science Student',
+  year: 'Final-year',
+  email: 'gokulakrishnankathiravan@gmail.com',
+  phone: '+91 8098400176',
+  whatsappNumber: '+91 8098400176',
+  whatsappUrl: 'https://wa.me/918098400176?text=Hello%20Gokulakrishnan%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.',
+  mailtoUrl: 'mailto:gokulakrishnankathiravan@gmail.com?subject=Portfolio%20Contact%20-%20Gokulakrishnan%20K&body=Hello%20Gokulakrishnan%2C%0D%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you%20regarding%20a%20potential%20opportunity.%0D%0AMy%20name%3A%0D%0AMy%20email%3A%0D%0AMy%20message%3A%0D%0ABest%20regards',
+  github: 'https://github.com/Gokulakrishnan-07',
+  linkedin: 'https://linkedin.com/in/gokulakrishnan8207',
+  instagram: '#',
+  photo: '/GOKUL.png',
+  resume: '/Gokulakrishnan-K-Resume.pdf',
+  college: 'Swami Dayananda College of Arts & Science',
+  education: 'B.Sc. Computer Science · 2024–2027',
+  percentage: '82%'
+};
 export const skills = [['FRONT-END', [['HTML5', 'Confident'], ['CSS3', 'Confident'], ['Bootstrap', 'Confident'], ['JavaScript', 'Learning']]], ['BACK-END', [['PHP', 'Confident'], ['Node.js', 'Learning'], ['Express.js', 'Learning']]], ['DATABASE', [['MongoDB', 'Learning'], ['DBMS', 'Completed']]], ['PROGRAMMING', [['C', 'Completed'], ['Java', 'Completed'], ['Python', 'Completed']]], ['COMPUTER SCIENCE', [['Data Structures & Algorithms', 'Learning']]], ['TOOLS', [['Git', 'Confident'], ['GitHub', 'Confident'], ['VS Code', 'Confident']]]];
 export const projectImages = ['/projects/Home.png', '/projects/Orbit.png', '/projects/Orbit-Animation-LIght-Theme.png', '/projects/Sanction-Raising.png'];
 export const projects = [
